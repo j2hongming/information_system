@@ -31,3 +31,21 @@ bash configure_git.sh
 ``` bash
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
+
+### optional
+#### pyenv
+- [pyenv/pyenv: Simple Python version management](https://github.com/pyenv/pyenv)
+
+``` bash
+bash configure_pyenv.sh
+```
+
+``` bash
+pyenv install -l
+pyenv install 3.10.4
+pyenv virtualenv <venv_name>
+pyenv virtualenvs
+pyenv activate <venv_name>
+pyenv deactivate
+pyenv virtualenv-delete <venv_name>
+```
