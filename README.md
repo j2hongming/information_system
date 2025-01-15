@@ -2,10 +2,17 @@
 
 Follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
+![source from img/information_system.excalidraw](img/information_system.png)
+
 ## Single source of truth
 - git
     - https://github.com/j2hongming
     - git hosting services, ex. Github, Gitlab, Bitbucket, AWS CodeCommit...
+- storage
+    - for files, photos, images, document(Word, Excel...)
+    - Dropbox
+    - Google Drive
+    - Microsoft OneDrive
 
 ## Windows host
 - [Developing on Remote Machines using SSH and Visual Studio Code](https://code.visualstudio.com/docs/remote/ssh#_getting-started)
