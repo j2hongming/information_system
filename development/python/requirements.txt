@@ -1,5 +1,8 @@
 # git commit
 pre-commit==4.1.0
 
+# change log
+git-cliff==2.8.0
+
 # doc
 mkdocs-material==9.6.3
