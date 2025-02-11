@@ -16,3 +16,9 @@ repos:
     rev: v8.16.1
     hooks:
       - id: gitleaks
+
+  # lint your commit messages according to the Conventional Commits standard
+  - repo: https://github.com/opensource-nepal/commitlint
+    rev: v1.2.0
+    hooks:
+      - id: commitlint

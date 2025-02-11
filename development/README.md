@@ -19,6 +19,9 @@ pip install -r requirements.txt
 ```
 
 ``` bash
-# install the hooks into git by .pre-commit-config.yaml
+# IOnstall the hooks into git by .pre-commit-config.yaml
 pre-commit install --install-hooks
+
+# Install the commit-msg hook in your project repo
+pre-commit install --hook-type commit-msg
 ```
