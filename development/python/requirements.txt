@@ -1,0 +1,5 @@
+# git commit
+pre-commit==4.1.0
+
+# doc
+mkdocs-material==9.6.3
