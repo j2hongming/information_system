@@ -57,3 +57,22 @@ priority 1: 回憶紀念, 財務, 房屋, 檢測報告
             - 程式語言
     - 專案
     - 課程
+
+### Backup strategy
+![](../img/backup_strategy.png)
+
+Local Storage
+- D:\Dropbox\個人
+- D:\Dropbox\工作
+- D:\OneDrive\j2hongming\回憶紀念
+- D:\j2hongming\Pictures\iCloud Photos\Photos
+- D:\j2hongming\Documents\iCloudDrive
+
+Local Storage to External Storage
+``` bash
+rsync -avzh --progress /mnt/d/OneDrive/j2hongming/回憶紀念/ /mnt/e/j2hongming/個人/回憶紀念/
+
+rsync -avzh --progress /mnt/d/Dropbox/ /mnt/e/j2hongming/
+# rsync -avzh --progress /mnt/d/Dropbox/個人/ /mnt/e/j2hongming/個人/
+# rsync -avzh --progress /mnt/d/Dropbox/工作/ /mnt/e/j2hongming/工作/
+```
